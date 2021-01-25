@@ -1,0 +1,426 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Test\\MuseumApp.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Data\\MuseumApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Data\\MuseumApp.Data.csproj",
+        "projectName": "MuseumApp.Data",
+        "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Data\\MuseumApp.Data.csproj",
+        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+        "outputPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj",
+        "projectName": "MuseumApp.Domain",
+        "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+        "outputPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Repositories\\MuseumApp.Repositories.csproj": {
+                "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Repositories\\MuseumApp.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Repositories\\MuseumApp.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Repositories\\MuseumApp.Repositories.csproj",
+        "projectName": "MuseumApp.Repositories",
+        "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Repositories\\MuseumApp.Repositories.csproj",
+        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+        "outputPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Data\\MuseumApp.Data.csproj": {
+                "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Data\\MuseumApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Test\\MuseumApp.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Test\\MuseumApp.Test.csproj",
+        "projectName": "MuseumApp.Test",
+        "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Test\\MuseumApp.Test.csproj",
+        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+        "outputPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj": {
+                "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj"
+              },
+              "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp\\MuseumApp.csproj": {
+                "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp\\MuseumApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Effort.EF6": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "NMemory": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[88.0.4324.9600, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp\\MuseumApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp\\MuseumApp.csproj",
+        "projectName": "MuseumApp",
+        "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp\\MuseumApp.csproj",
+        "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
+        "outputPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ThinkPad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj": {
+                "projectPath": "C:\\MuseumAPP\\museum project- faks\\MuseumApp\\MuseumApp.Domain\\MuseumApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.9.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

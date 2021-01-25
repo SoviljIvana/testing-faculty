@@ -1,0 +1,9 @@
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\bin\Debug\netcoreapp3.1\MuseumApp.React.deps.json
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\bin\Debug\netcoreapp3.1\MuseumApp.React.dll
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\bin\Debug\netcoreapp3.1\MuseumApp.React.pdb
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\obj\Debug\netcoreapp3.1\MuseumApp.React.csprojAssemblyReference.cache
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\obj\Debug\netcoreapp3.1\MuseumApp.React.AssemblyInfoInputs.cache
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\obj\Debug\netcoreapp3.1\MuseumApp.React.AssemblyInfo.cs
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\obj\Debug\netcoreapp3.1\MuseumApp.React.csproj.CoreCompileInputs.cache
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\obj\Debug\netcoreapp3.1\MuseumApp.React.dll
+C:\MuseumAPP\museum project- faks\MuseumApp\MuseumApp.React\obj\Debug\netcoreapp3.1\MuseumApp.React.pdb

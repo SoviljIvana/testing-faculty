@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MuseumApp.Data.Context.MuseumContext">
+    <Position X="3.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAABAAAACAAAAAEAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Context\MuseumContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuseumApp.Data.Entities.AuditoriumEntity">
+    <Position X="7.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAABAAAAAABAAAgABAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\AuditoriumEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuseumApp.Data.Entities.ExhibitEntity">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAACAAAAAAAABAAAAAAACAQAAAAAAAAQAAA=</HashCode>
+      <FileName>Entities\ExhibitEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuseumApp.Data.Entities.ExhibitionEntity">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAAAAAgAAEABIAABAAAIAAgAAQAACAAAAAAAAA=</HashCode>
+      <FileName>Entities\ExhibitionEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MuseumApp.Data.MuseumEntity">
+    <Position X="5.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAIAAAAQAAAgAAAAAAAAAAABQAAAAA=</HashCode>
+      <FileName>Entities\MuseumEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
